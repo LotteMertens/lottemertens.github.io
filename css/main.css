@@ -265,6 +265,19 @@ footer {
 .page-content {
   color: #d0d0d0; }
 
+.about-section,
+.work-experience-section,
+.education-section,
+.skills-section,
+.contant-section {
+  background-color: #202020; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f0f0f0; }
+
+.container {
+  color: #d0d0d0; }
+
 .border-secondary {
   border-color: #333 !important; }
 
