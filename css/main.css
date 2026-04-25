@@ -141,6 +141,179 @@ footer a:not(.nav-link) {
     margin-bottom: -80px;
     margin-left: 0; } }
 
+/* === Design refresh ====================================================== */
+
+/* Dark page navigation bar */
+.site-page-nav {
+  background-color: #1e1e1e; }
+
+.site-page-nav .btn {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  border-radius: 0;
+  padding: 0.6rem 1rem;
+  transition: color 0.15s, background-color 0.15s; }
+
+.site-page-nav .btn:hover {
+  color: #fff;
+  background-color: rgba(183, 28, 28, 0.3); }
+
+/* Red accent button */
+.btn-accent {
+  background-color: #B71C1C;
+  border-color: #B71C1C;
+  color: #fff; }
+
+.btn-accent:hover {
+  background-color: #8e1414;
+  border-color: #8e1414;
+  color: #fff; }
+
+/* Section headings with red underline accent */
+.section-heading::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #B71C1C;
+  margin-top: 0.35rem;
+  border-radius: 2px; }
+
+/* Hero bio text in cover */
+.hero-bio {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  opacity: 0.92; }
+
+/* === Dark theme ========================================================== */
+
+body {
+  background-color: #141414;
+  color: #d0d0d0; }
+
+header {
+  background-color: #141414;
+  border-bottom: 1px solid #2a2a2a; }
+
+.site-title {
+  color: #e0e0e0 !important; }
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.55) !important; }
+
+.nav-link:hover,
+.nav-link:focus,
+.active .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important; }
+
+.cover {
+  background-color: #202020 !important; }
+
+.card,
+.card.shadow-sm {
+  background-color: #2a2a2a !important;
+  border-color: #383838 !important;
+  color: #d0d0d0; }
+
+.card-body {
+  color: #d0d0d0; }
+
+.text-muted {
+  color: #888 !important; }
+
+.text-secondary {
+  color: #999 !important; }
+
+.text-primary {
+  color: #ef5350 !important; }
+
+.text-success {
+  color: #ef9a9a !important; }
+
+a {
+  color: #ef5350; }
+
+a:hover {
+  color: #B71C1C; }
+
+hr {
+  border-color: #2e2e2e;
+  opacity: 1; }
+
+.progress {
+  background-color: #383838; }
+
+.form-control {
+  background-color: #2a2a2a;
+  border-color: #383838;
+  color: #d0d0d0; }
+
+.form-control::placeholder {
+  color: #555; }
+
+.form-control:focus {
+  background-color: #333;
+  border-color: #B71C1C;
+  color: #d0d0d0;
+  box-shadow: 0 0 0 0.2rem rgba(183, 28, 28, 0.25); }
+
+footer {
+  background-color: #141414 !important;
+  border-top: 1px solid #2a2a2a; }
+
+.page-content {
+  color: #d0d0d0; }
+
+.border-secondary {
+  border-color: #333 !important; }
+
+/* ========================================================================= */
+
+/* Publication cards */
+.paper-card {
+  border-left: 3px solid #B71C1C;
+  padding: 0.85rem 1rem 0.85rem 1.25rem;
+  margin-bottom: 1.25rem;
+  background: #2a2a2a;
+  border-radius: 0 4px 4px 0;
+  transition: box-shadow 0.15s; }
+
+.paper-card:hover {
+  box-shadow: 0 2px 8px rgba(183, 28, 28, 0.15); }
+
+.paper-card .paper-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: #f0f0f0; }
+
+.paper-card .paper-meta {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0.1rem; }
+
+.paper-card .paper-abstract {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+  line-height: 1.55; }
+
+/* All progress bars — unified red */
+.progress-bar {
+  background-color: #B71C1C !important; }
+
+/* Education timeline — lighter red variant */
+.timeline-card-success {
+  border-left-color: #ef9a9a; }
+
+.timeline-card-success:before {
+  border-color: #ef9a9a; }
+
+.timeline-card-success:after {
+  background-color: #ef9a9a; }
+
+/* ========================================================================= */
+
 @media print {
   body {
     background-color: #fff; }
