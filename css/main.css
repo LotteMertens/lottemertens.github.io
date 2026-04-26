@@ -195,12 +195,6 @@ body {
   background-color: #141414;
   color: #d0d0d0; }
 
-header {
-  background-color: #141414;
-  border-bottom: 1px solid #2a2a2a; }
-
-.site-title {
-  color: #e0e0e0 !important; }
 
 .nav-link {
   color: rgba(255, 255, 255, 0.55) !important; }
