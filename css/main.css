@@ -115,6 +115,10 @@ html {
   background-repeat: no-repeat;
   border-radius: 10px 10px 0 0; }
 
+@media (min-width: 768px) {
+  .cover-bg {
+    min-height: 250px; } }
+
 .avatar {
   max-width: 316px;
   max-height: 216px;
