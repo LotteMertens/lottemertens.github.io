@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lottemertens.com/sitemap.xml
