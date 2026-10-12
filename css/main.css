@@ -586,6 +586,32 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   object-position: center 30%; }
 
+/* Video thumbnail with play button */
+.talk-card-video {
+  position: relative;
+  display: block; }
+
+/* Show the whole photo (portrait shots, video frames) instead of cropping */
+.talk-card-img-fit {
+  object-fit: contain;
+  object-position: center;
+  background-color: #111; }
+
+.talk-card-video i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+  opacity: 0.9;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  transition: color 0.15s, opacity 0.15s; }
+
+.talk-card-video:hover i {
+  color: #ef5350;
+  opacity: 1; }
+
 .talk-card-icon {
   aspect-ratio: 16 / 10;
   display: flex;
