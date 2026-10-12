@@ -8,7 +8,7 @@ Personal academic CV website, hosted on GitHub Pages at [lottemertens.com](https
 index.html          — Homepage
 CV.html             — Curriculum vitae
 Articles.html       — Publications and articles
-Conferences.html    — Conference presentations
+Talks.html          — Talks and conferences (Conferences.html redirects here)
 AG.html             — Additional page
 CV.pdf              — Downloadable CV
 Kidsweek.pdf        — Kidsweek article
